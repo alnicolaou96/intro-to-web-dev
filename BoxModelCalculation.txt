@@ -1,0 +1,4 @@
+height 150+margin-top 20+border-top 1+padding-top 10+margin-bottom 20+border-bottom 1+ padding bottom 10= total height 212px
+height 400+margin-top 20+border-top 1+padding-top 10+margin-bottom 20+border-bottom 1+ padding bottom 10= total width 462px
+border 1+ padding 10+ content width 400+ pading 10+ border1= browser width 422
+border 1+ padding 10+ content width 150+ pading 10+ border1= browser height 172

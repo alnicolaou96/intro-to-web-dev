@@ -16,6 +16,10 @@
             
                 font-family: Arial, Helvetica, sans-serif;
             }
+            a:hover{text-decoration: underline;background-color:orangered;}
+            a{text-decoration:none;}
+            tbody{background-color:#9696C2;}
+            thead{background-color:#B67334;}
             </style>
             <link rel="stylesheet" type="text/css" href="albumstyles.css">
             
@@ -29,8 +33,8 @@
             alt="starbomb album cover"/></a></div>
             <h1 id=albumtitle>Starbomb</h1>
             <h2><a href="http://starbomb.com/" target="_black">Starbomb</a></h2>
-            <h3>December 17, 2013</h3>
-            <p>StarBomb is a comedic album filled with songs parodies of popular video games.</p>
+            <h3>December 17, 2013</h3> <hr/>
+            <p style=text-align:center>StarBomb is a comedic album filled with songs parodies of popular video games.</p>
             <br/>
 
 
@@ -41,16 +45,17 @@
                 <li>Brian Wecht-keyboard,synths,writer</li>
             </ul>
 
-
-            <table border="1" width="90%">
+            <div style=margin:>
+            <table border="1" width="100%">
                 <caption>Tracks</caption>
-
+                <thead>
                 <tr>
                     <th>track #</th>
                     <th>track title</th>
                     <th>track length</th>
                 </tr>
-
+                </thead>
+                <tbody>
                 <tr>
                     <td>1</td>
                     <td>intro</td>
@@ -117,7 +122,9 @@
                     <td>13</td>
                     <td>outro</td>
                     <td>0:41</td>
-                </tr>
+                </tr>  
+                </tbody>
             </table>
+        </div>
         </body>
     </html>
