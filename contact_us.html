@@ -1,0 +1,56 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Contact_us.html</title>
+            <link rel="stylesheet" type="text/css" href="restaurant_style.css">
+            <style>
+                p{
+                    text-align:center;
+                    font-weight:bold;
+                }
+            </style>
+        </head>
+
+        <body>
+                <h1>ALEX'S HOUSE OF FOOD</h1>
+                <hr/>
+                <a href="home.html">Home</a> <a href="menu.html">Menu</a> <a href="contact_us.html">Contact us</a>
+                <hr/>
+
+                <form action="fakepage.html" method="POST">
+                   <p>Name: <input type="text" name="name"></p>
+                   <p>Email: <input type="text" name="email"></p>
+                   <p>Phone: <input type="text" name="phone"</p>
+                   <p>Reason for Incquiry:
+                       <select>
+                           <option value="Catering">Catering</option>
+                           <option value="Private Party">Private Party</option>
+                           <option value="Feedback">Feedback</option>
+                           <option value="Other">Other</option>
+                       </select>
+                   </p>
+                   <p>Additional Information: <textarea rows="5" cols="50"></textarea></p>
+                   <p>Have you been to the restaurant:  <input type="radio" name="answer" value="no" checked> no  
+                   <input type="radio" name="answer" value="yes"> yes   </p>
+                   <p> Best days to contact you 
+                    <input type="checkbox" name="days" value="M">M
+                    <input type="checkbox" name="days" value="T">T
+                    <input type="checkbox" name="days" value="W">W
+                    <input type="checkbox" name="days" value="TH">TH
+                    <input type="checkbox" name="days" value="F">
+                </p>
+                <p><input type="submit" class="send_request" value="send request"/></p>
+                </form>
+
+
+
+            
+                <div class="footer">
+                <hr/>
+                 <footer>
+                    <p>151555 Alex ave, Food Town, Ohio, 44000</p>
+                    <p> 440-123-7891 </p>
+                </footer>
+                </div>
+        </body>
+    </html>
